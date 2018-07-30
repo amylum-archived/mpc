@@ -9,6 +9,7 @@ item do
     url_xpath
     url 'http://www.multiprecision.org/mpc/download.html'
     xpath '//*[@id="content"]/div[1]/p[1]/a'
+    regex /^Version ([\d.]+)$/
   end
 
   actual do
