@@ -7,8 +7,14 @@ deps(
   mpfr: {
     version: '4.0.1-2',
     checksum: '629ce14a414965b5967ee3ff95f40edbc1e62cd97e4a487ed302fae3de1da486'
+  },
+  gmp: {
+    version: '6.1.2-1',
+    checksum: '12515de758fa11b2b3d87b347d0593fc8bde37b32a6c609cbddd09473e180b08'
   }
 )
+remove_linker_archives
+remove_pkgconfig_files
 
 configure_flags(
   prefix: '/usr'
@@ -18,6 +24,7 @@ cflags
 harden
 
 build do
+  run 'autoreconf -i'
   configure
   make
   install
