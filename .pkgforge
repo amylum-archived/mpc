@@ -1,0 +1,28 @@
+name 'mpc'
+org 'amylum'
+
+license 'COPYING.LESSER'
+
+deps(
+  mpfr: {
+    version: '4.0.1-2',
+    checksum: 'f3abb888c81e48919f884d236d5aaf512025bce0f317c53c2e5bec162f71d753f882e6e9abc937252e3e90f0b23cd5a3607ee00eeea9b7b5c0a3c2ae8f025193'
+  }
+)
+
+configure_flags(
+  prefix: '/usr'
+)
+
+cflags
+harden
+
+build do
+  configure
+  make
+  install
+end
+
+test do
+  # TODO: add tests
+end
