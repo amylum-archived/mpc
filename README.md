@@ -1,7 +1,7 @@
 mpc
 ==========
 
-[![Build Status](https://img.shields.io/circleci/project/amylum/mpc/master.svg)](https://circleci.com/gh/amylum/mpc)
+[![Build Status](https://img.shields.io/travis/com/amylum/mpc.svg)](https://travis-ci.com/amylum/mpc)
 [![GitHub release](https://img.shields.io/github/release/amylum/mpc.svg)](https://github.com/amylum/mpc/releases)
 [![LGPL Licensed](http://img.shields.io/badge/license-LGPL-green.svg)](https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3))
 
