@@ -5,8 +5,8 @@ license 'COPYING.LESSER'
 
 deps(
   mpfr: {
-    version: '4.0.1-2',
-    checksum: '629ce14a414965b5967ee3ff95f40edbc1e62cd97e4a487ed302fae3de1da486'
+    version: '4.0.2-1',
+    checksum: '97a87aa5279c913c13f19575c07f7e202af0d8d1b316fc96906d7f98d3789574'
   },
   gmp: {
     version: '6.1.2-1',
