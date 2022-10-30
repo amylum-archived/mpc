@@ -3,4 +3,4 @@
 	url = https://github.com/amylum/pkgforge-helper
 [submodule "upstream"]
 	path = upstream
-	url = https://scm.gforge.inria.fr/anonscm/git/mpc/mpc.git
+	url = https://gitlab.inria.fr/mpc/mpc.git
